@@ -9,7 +9,7 @@ interface PageWrapperProps {
 
 export default function PageWrapper({ children, title }: PageWrapperProps) {
   return (
-    <Box sx={{ padding: 2 }} display="flex" flexDirection="column" gap={2}>
+    <Box sx={{ padding: 2 }} display="flex" flexDirection="column">
       <Head>
         <title>{title}</title>
       </Head>
