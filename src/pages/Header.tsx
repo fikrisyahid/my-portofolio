@@ -1,6 +1,6 @@
 import React from "react";
 import MainCard from "../components/MainCard";
-import Typography from '@mui/material/Typography'
+import Typography from "@mui/material/Typography";
 import Item from "../components/Item";
 
 export default function Header() {
@@ -14,12 +14,12 @@ export default function Header() {
         />
       </Item>
       <Item align="center">
-        <Typography variant="h4" fontWeight={700}>
+        <Typography variant="h4" fontWeight={700} textAlign="center">
           Muhammad Fikri Syahid
         </Typography>
       </Item>
       <Item align="center" sx={{ marginBottom: 5 }}>
-        <Typography variant="h5" fontWeight={100}>
+        <Typography variant="h5" fontWeight={100} textAlign="center">
           IT Fresh Graduate
         </Typography>
       </Item>

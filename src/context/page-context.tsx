@@ -10,7 +10,7 @@ interface PageContextProps {
   children: ReactNode;
 }
 
-type TPage = "project" | "experience" | "stack" | "certification" | "about-me";
+type TPage = "stack" | "experience" | "certification" | "about-me";
 
 interface DefaultValue {
   currentPage: TPage;
@@ -18,12 +18,12 @@ interface DefaultValue {
 }
 
 export const PageContext = createContext<DefaultValue>({
-  currentPage: "project",
-  setCurrentPage: () => "project",
+  currentPage: "stack",
+  setCurrentPage: () => "stack",
 });
 
 export default function PageContextBuilder({ children }: PageContextProps) {
-  const [currentPage, setCurrentPage] = useState<TPage>("project");
+  const [currentPage, setCurrentPage] = useState<TPage>("stack");
   return (
     <PageContext.Provider
       value={{

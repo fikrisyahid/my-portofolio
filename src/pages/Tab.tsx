@@ -14,9 +14,9 @@ export default function Tab() {
           <Button
             variant="text"
             sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
-            onClick={() => setCurrentPage("project")}
+            onClick={() => setCurrentPage("stack")}
           >
-            My Projects
+            My Stack
           </Button>
         </Grid>
         <Grid item>
@@ -26,15 +26,6 @@ export default function Tab() {
             onClick={() => setCurrentPage("experience")}
           >
             Work Experience
-          </Button>
-        </Grid>
-        <Grid item>
-          <Button
-            variant="text"
-            sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
-            onClick={() => setCurrentPage("stack")}
-          >
-            My Stack
           </Button>
         </Grid>
         <Grid item>

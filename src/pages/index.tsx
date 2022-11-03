@@ -10,12 +10,10 @@ export default function InitPage() {
     <PageWrapper title="My Portofolio">
       <Header />
       <Tab />
-      {currentPage === "project"
-        ? "project"
+      {currentPage === "stack"
+        ? "stack"
         : currentPage === "experience"
         ? "experience"
-        : currentPage === "stack"
-        ? "stack"
         : currentPage === "certification"
         ? "certification"
         : "about me"}
