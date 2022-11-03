@@ -6,9 +6,6 @@ import { PageContext } from "../context/page-context";
 
 export default function InitPage() {
   const { currentPage } = useContext(PageContext);
-  useEffect(() => {
-    console.log(currentPage);
-  }, [currentPage]);
   return (
     <PageWrapper title="My Portofolio">
       <Header />
