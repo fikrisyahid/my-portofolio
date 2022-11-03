@@ -1,7 +1,7 @@
 import React from "react";
-import MainCard from "./reusable/MainCard";
+import MainCard from "./Atoms/MainCard";
 import Typography from '@mui/material/Typography'
-import Item from "./reusable/Item";
+import Item from "./Atoms/Item";
 
 export default function Header() {
   return (
