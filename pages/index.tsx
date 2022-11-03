@@ -1,31 +1,21 @@
 import Typography from "@mui/material/Typography";
 import { Divider } from "@mui/material";
-import MainCard from "../components/MainCard";
-import Item from "../components/Item";
-import PageWrapper from "../components/PageWrapper";
+import Item from "../components/reusable/Item";
+import MainCard from "../components/reusable/MainCard";
+import PageWrapper from "../components/reusable/PageWrapper";
+import Header from "../components/Header";
 
 export default function Home() {
   return (
     <PageWrapper title="My Portofolio">
-      <Item align="center" hover sx={{ marginTop: 5 }}>
-        <img
-          alt="profile-pict"
-          src="/profil.jpeg"
-          style={{ width: "200px", height: "200px", borderRadius: 100 }}
-        />
-      </Item>
-      <Item align="center">
-        <Typography variant="h2" fontWeight={500}>
-          Welcome to my portofolio
-        </Typography>
-      </Item>
+      <Header />
       <MainCard>
         <Item align="center">
           <Typography variant="h5" fontWeight={500}>
             Stack I Used
           </Typography>
-          <Divider variant="fullWidth" />
         </Item>
+        <Divider variant="fullWidth" />
       </MainCard>
     </PageWrapper>
   );
