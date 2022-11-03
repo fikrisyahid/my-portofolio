@@ -1,22 +1,13 @@
-import React, { useContext } from "react";
+import React from "react";
 import Header from "./Header";
 import PageWrapper from "../components/PageWrapper";
-import Tab from "./Tab";
-import { PageContext } from "../context/page-context";
+import Content from "./Content";
 
 export default function InitPage() {
-  const { currentPage } = useContext(PageContext);
   return (
     <PageWrapper title="My Portofolio">
       <Header />
-      <Tab />
-      {currentPage === "stack"
-        ? "stack"
-        : currentPage === "experience"
-        ? "experience"
-        : currentPage === "certification"
-        ? "certification"
-        : "about me"}
+      <Content />
     </PageWrapper>
   );
 }
