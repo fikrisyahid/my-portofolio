@@ -21,7 +21,7 @@ export default function Item({ children, hover, align, sx }: ItemProps) {
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        whileHover={hover ? { scale: 1.2 } : undefined}
+        whileHover={hover ? { scale: 1.1 } : undefined}
       >
         {children}
       </motion.div>
