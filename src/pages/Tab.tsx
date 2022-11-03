@@ -4,13 +4,19 @@ import { useContext } from "react";
 import { PageContext } from "../context/page-context";
 
 export default function Tab() {
-  const { setCurrentPage } = useContext(PageContext);
+  const { currentPage, setCurrentPage } = useContext(PageContext);
   return (
     <Grid container justifyContent="center" spacing={2}>
       <Grid item>
         <Button
           variant="text"
-          sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
+          sx={{
+            fontSize: 16,
+            fontWeight: 700,
+            color: "white",
+            backgroundColor:
+              currentPage === "stack" ? "#25343F" : "transparent",
+          }}
           onClick={() => setCurrentPage("stack")}
         >
           My Stack
@@ -19,7 +25,13 @@ export default function Tab() {
       <Grid item>
         <Button
           variant="text"
-          sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
+          sx={{
+            fontSize: 16,
+            fontWeight: 700,
+            color: "white",
+            backgroundColor:
+              currentPage === "experience" ? "#25343F" : "transparent",
+          }}
           onClick={() => setCurrentPage("experience")}
         >
           Work Experience
@@ -28,7 +40,13 @@ export default function Tab() {
       <Grid item>
         <Button
           variant="text"
-          sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
+          sx={{
+            fontSize: 16,
+            fontWeight: 700,
+            color: "white",
+            backgroundColor:
+              currentPage === "certification" ? "#25343F" : "transparent",
+          }}
           onClick={() => setCurrentPage("certification")}
         >
           Certification
@@ -37,7 +55,13 @@ export default function Tab() {
       <Grid item>
         <Button
           variant="text"
-          sx={{ fontSize: 16, fontWeight: 700, color: "white" }}
+          sx={{
+            fontSize: 16,
+            fontWeight: 700,
+            color: "white",
+            backgroundColor:
+              currentPage === "about-me" ? "#25343F" : "transparent",
+          }}
           onClick={() => setCurrentPage("about-me")}
         >
           About Me
