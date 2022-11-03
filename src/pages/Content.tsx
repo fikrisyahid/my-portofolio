@@ -2,7 +2,7 @@ import Divider from "@mui/material/Divider";
 import { useContext } from "react";
 import MainCard from "../components/MainCard";
 import { PageContext } from "../context/page-context";
-import Stack from "./stack";
+import Stack from "./Stack";
 import Tab from "./Tab";
 
 export default function Content() {
