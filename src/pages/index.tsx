@@ -1,7 +1,7 @@
-import React, { useContext, useEffect } from "react";
-import Header from "../components/Header";
-import PageWrapper from "../components/Atoms/PageWrapper";
-import Tab from "../components/Tab";
+import React, { useContext } from "react";
+import Header from "./Header";
+import PageWrapper from "../components/PageWrapper";
+import Tab from "./Tab";
 import { PageContext } from "../context/page-context";
 
 export default function InitPage() {

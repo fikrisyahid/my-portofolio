@@ -1,4 +1,4 @@
-import MainCard from "./Atoms/MainCard";
+import MainCard from "../components/MainCard";
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { Divider } from "@mui/material";
