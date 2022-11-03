@@ -25,7 +25,7 @@ export default function Header() {
       </Item>
       <Item
         align="center"
-        sx={{ marginLeft: 20, marginRight: 20, marginBottom: 5 }}
+        sx={{ marginLeft: '5vw', marginRight: '5vw', marginBottom: 5 }}
         hover
       >
         <MainCard>
