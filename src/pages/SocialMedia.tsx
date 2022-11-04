@@ -48,7 +48,7 @@ export default function SocialMedia({ sx }: SocialMediaProps) {
           </a>
         </Item>
       </Box>
-      <Divider sx={{ width: "10vw" }} />
+      <Divider sx={{ width: "150px" }} />
     </Box>
   );
 }
