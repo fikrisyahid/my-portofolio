@@ -2,7 +2,6 @@ import Box from "@mui/material/Box";
 import React from "react";
 import Item from "../components/Item";
 import Typography from "@mui/material/Typography";
-import MainCard from "../components/MainCard";
 import ExpCard from "../components/ExpCard";
 
 export default function Experience() {
@@ -23,8 +22,8 @@ export default function Experience() {
             period="June - December 2022"
             jobdesc={[
               "Create engine downtime monitoring application using NodeJS for back-end and front-end.",
-              "Create e-Training application front-end using NextJS and ReactJS.",
-              "Collaborate with team on GitHub to update back-end API or front-end request.",
+              "Create an e-Training application front-end using NextJS and ReactJS.",
+              "Collaborate with the team on GitHub to develop the back-end and front-end.",
             ]}
           />
         </Item>
@@ -46,7 +45,7 @@ export default function Experience() {
             location="South Tangerang Public High School 8"
             period="February - July 2020"
             jobdesc={[
-              "Create school website using WordPress CMS.",
+              "Create a school website using WordPress CMS.",
               "Maintenance on the website's content according to school's request.",
               "Do a weekly database backup.",
             ]}
