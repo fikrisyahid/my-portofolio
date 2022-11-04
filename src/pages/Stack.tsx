@@ -9,7 +9,7 @@ export default function Stack() {
     <Box>
       <Box display="flex" justifyContent="center" mb={5}>
         <Item>
-          <Typography variant="h3" fontWeight={300}>
+          <Typography variant="h3" fontWeight={300} textAlign="center">
             Stacks that I have used
           </Typography>
         </Item>
