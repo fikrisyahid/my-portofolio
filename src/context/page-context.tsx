@@ -22,7 +22,7 @@ export const PageContext = createContext<DefaultValue>({
   setCurrentPage: () => "stack",
 });
 
-export default function PageContextBuilder({ children }: PageContextProps) {
+export default function PageContextProvider({ children }: PageContextProps) {
   const [currentPage, setCurrentPage] = useState<TPage>("stack");
   return (
     <PageContext.Provider
