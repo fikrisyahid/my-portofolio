@@ -18,15 +18,18 @@ export default function ExpCard({
   jobdesc,
 }: ExpCardProps) {
   return (
-    <MainCard backgroundColor="#28343E">
+    <MainCard backgroundColor="#28343E" sx={{ width: "70vw" }}>
       <Typography textAlign="center" variant="h5" fontWeight={700}>
         {title}
       </Typography>
       <Typography textAlign="center" variant="h6">
         {location}
       </Typography>
-      <Typography textAlign="center" variant="body1">
+      <Typography textAlign="center" variant="body1" mb={2}>
         <b>{period}</b>
+      </Typography>
+      <Typography variant="h6" textAlign="center">
+        Job Description:
       </Typography>
       {jobdesc.length > 0 && (
         <List>
