@@ -31,20 +31,22 @@ export default function CertBox({ url, src, alt }: CertBoxProps) {
         />
       </Item>
       {url && (
-        <a href={url} target="_blank" style={{ textDecoration: "none" }}>
-          <Button
-            variant="contained"
-            sx={{
-              backgroundColor: "#3f5465",
-              color: "white",
-              ":hover": {
-                backgroundColor: "#4e708d",
-              },
-            }}
-          >
-            View Credential
-          </Button>
-        </a>
+        <Item>
+          <a href={url} target="_blank" style={{ textDecoration: "none" }}>
+            <Button
+              variant="contained"
+              sx={{
+                backgroundColor: "#3f5465",
+                color: "white",
+                ":hover": {
+                  backgroundColor: "#4e708d",
+                },
+              }}
+            >
+              View Credential
+            </Button>
+          </a>
+        </Item>
       )}
     </Box>
   );
