@@ -15,13 +15,41 @@ export default function Experience() {
           </Typography>
         </Item>
       </Box>
-      <Box display="flex" flexDirection="column" alignItems="center" gap={3}>
+      <Box display="flex" flexDirection="column" alignItems="center" gap={5}>
+        <Item hover>
+          <ExpCard
+            title="System Development Engineering Intern"
+            location="PT. Amerta Indah Otsuka"
+            period="June - December 2022"
+            jobdesc={[
+              "Create engine downtime monitoring application using NodeJS for back-end and front-end.",
+              "Create e-Training application front-end using NextJS and ReactJS.",
+              "Collaborate with team on GitHub to update back-end API or front-end request.",
+            ]}
+          />
+        </Item>
+        <Item hover>
+          <ExpCard
+            title="Web Developer Intern"
+            location="PT. Prima Duta Nusantara"
+            period="March - April 2021"
+            jobdesc={[
+              "Create web based HRD application using PHP with CodeIgniter 4 framework.",
+              "Design and create application database.",
+              "Maintenance on the application based on HRD's request.",
+            ]}
+          />
+        </Item>
         <Item hover>
           <ExpCard
             title="Web Developer Part Time"
             location="South Tangerang Public High School 8"
             period="February - July 2020"
-            jobdesc={["Make A", "Make B", "Make C"]}
+            jobdesc={[
+              "Create school website using WordPress CMS.",
+              "Maintenance on the website's content according to school's request.",
+              "Do a weekly database backup.",
+            ]}
           />
         </Item>
       </Box>
