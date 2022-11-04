@@ -8,9 +8,10 @@ interface ItemProps {
   hover?: boolean;
   align?: any;
   sx?: SxProps<Theme> | undefined;
+  scale?: number;
 }
 
-export default function Item({ children, hover, align, sx }: ItemProps) {
+export default function Item({ children, hover, align, sx, scale }: ItemProps) {
   return (
     <Box
       display="flex"
@@ -21,7 +22,7 @@ export default function Item({ children, hover, align, sx }: ItemProps) {
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         whileInView={{ opacity: 1, scale: 1 }}
-        whileHover={hover ? { scale: 1.1 } : undefined}
+        whileHover={hover ? { scale: scale || 1.1 } : undefined}
       >
         {children}
       </motion.div>
