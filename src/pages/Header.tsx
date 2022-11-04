@@ -2,6 +2,7 @@ import React from "react";
 import MainCard from "../components/MainCard";
 import Typography from "@mui/material/Typography";
 import Item from "../components/Item";
+import SocialMedia from "./SocialMedia";
 
 export default function Header() {
   return (
@@ -18,14 +19,17 @@ export default function Header() {
           Muhammad Fikri Syahid
         </Typography>
       </Item>
-      <Item align="center" sx={{ marginBottom: 5 }}>
+      <Item align="center">
         <Typography variant="h5" fontWeight={100} textAlign="center">
           IT Fresh Graduate
         </Typography>
       </Item>
+      <Item>
+        <SocialMedia sx={{ marginBottom: 3 }} />
+      </Item>
       <Item
         align="center"
-        sx={{ marginLeft: '5vw', marginRight: '5vw', marginBottom: 5 }}
+        sx={{ marginLeft: "5vw", marginRight: "5vw", marginBottom: 5 }}
         hover
       >
         <MainCard>
