@@ -16,7 +16,7 @@ export default function Experience() {
         </Item>
       </Box>
       <Box display="flex" flexDirection="column" alignItems="center" gap={5}>
-        <Item hover>
+        <Item>
           <ExpCard
             title="System Development Engineering Intern"
             location="PT. Amerta Indah Otsuka"
@@ -28,7 +28,7 @@ export default function Experience() {
             ]}
           />
         </Item>
-        <Item hover>
+        <Item>
           <ExpCard
             title="Web Developer Intern"
             location="PT. Prima Duta Nusantara"
@@ -40,7 +40,7 @@ export default function Experience() {
             ]}
           />
         </Item>
-        <Item hover>
+        <Item>
           <ExpCard
             title="Web Developer Part Time"
             location="South Tangerang Public High School 8"
