@@ -60,10 +60,10 @@ export default function Stack() {
           </Item>
           <Item hover>
             <img
-              alt="mysql"
-              src="/assets/stack/mysql.png"
+              alt="ts"
+              src="/assets/stack/ts.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
-              onClick={() => enqueueSnackbar("MySQL")}
+              onClick={() => enqueueSnackbar("Typescript")}
             />
           </Item>
         </Box>
@@ -86,10 +86,10 @@ export default function Stack() {
           </Item>
           <Item hover>
             <img
-              alt="bootstrap"
-              src="/assets/stack/bootstrap.png"
+              alt="mysql"
+              src="/assets/stack/mysql.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
-              onClick={() => enqueueSnackbar("Bootstrap")}
+              onClick={() => enqueueSnackbar("MySql")}
             />
           </Item>
         </Box>
@@ -122,10 +122,10 @@ export default function Stack() {
         <Box display="flex" justifyContent="space-evenly">
           <Item hover>
             <img
-              alt="ts"
-              src="/assets/stack/ts.png"
+              alt="bootstrap"
+              src="/assets/stack/bootstrap.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
-              onClick={() => enqueueSnackbar("Typescript")}
+              onClick={() => enqueueSnackbar("Bootstrap")}
             />
           </Item>
           <Item hover>
