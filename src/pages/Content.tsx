@@ -10,7 +10,7 @@ export default function Content() {
   return (
     <MainCard>
       <Tab />
-      <Divider variant="fullWidth" sx={{marginBottom: 3}} />
+      <Divider variant="fullWidth" sx={{marginBottom: 5}} />
       {currentPage === "stack"
         ? <Stack />
         : currentPage === "experience"
