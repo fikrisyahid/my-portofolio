@@ -19,7 +19,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="nodejs"
-              src="/assets/nodejs.png"
+              src="/assets/stack/nodejs.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Node JS")}
             />
@@ -27,7 +27,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="js-html-css"
-              src="/assets/trio.png"
+              src="/assets/stack/trio.png"
               style={{ width: "25vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("HTML, Java Script, CSS")}
             />
@@ -35,7 +35,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="react"
-              src="/assets/react.png"
+              src="/assets/stack/react.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("React JS")}
             />
@@ -45,7 +45,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="nextjs"
-              src="/assets/nextjs.png"
+              src="/assets/stack/nextjs.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Next JS")}
             />
@@ -53,7 +53,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="express"
-              src="/assets/express.png"
+              src="/assets/stack/express.png"
               style={{ width: "25vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Express JS")}
             />
@@ -61,7 +61,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="mysql"
-              src="/assets/mysql.png"
+              src="/assets/stack/mysql.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("MySQL")}
             />
@@ -71,7 +71,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="sequelize"
-              src="/assets/sequelize.png"
+              src="/assets/stack/sequelize.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Sequelize")}
             />
@@ -79,7 +79,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="mui"
-              src="/assets/mui.png"
+              src="/assets/stack/mui.png"
               style={{ width: "25vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Material UI React")}
             />
@@ -87,7 +87,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="bootstrap"
-              src="/assets/bootstrap.png"
+              src="/assets/stack/bootstrap.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Bootstrap")}
             />
@@ -97,7 +97,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="ci"
-              src="/assets/ci.png"
+              src="/assets/stack/ci.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("CodeIgniter")}
             />
@@ -105,7 +105,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="django"
-              src="/assets/django.png"
+              src="/assets/stack/django.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Django")}
             />
@@ -113,7 +113,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="php"
-              src="/assets/php.png"
+              src="/assets/stack/php.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("PHP")}
             />
@@ -123,7 +123,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="ts"
-              src="/assets/ts.png"
+              src="/assets/stack/ts.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Typescript")}
             />
@@ -131,7 +131,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="github"
-              src="/assets/github.png"
+              src="/assets/stack/github.png"
               style={{ width: "25vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("GitHub")}
             />
@@ -139,7 +139,7 @@ export default function Stack() {
           <Item hover>
             <img
               alt="chartjs"
-              src="/assets/chartjs.png"
+              src="/assets/stack/chartjs.png"
               style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Chart JS")}
             />
