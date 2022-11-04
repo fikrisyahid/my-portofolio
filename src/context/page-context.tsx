@@ -10,7 +10,7 @@ interface PageContextProps {
   children: ReactNode;
 }
 
-type TPage = "stack" | "experience" | "certification" | "about-me";
+type TPage = "stack" | "experience" | "certification";
 
 interface DefaultValue {
   currentPage: TPage;

@@ -2,7 +2,6 @@ import Divider from "@mui/material/Divider";
 import { useContext } from "react";
 import MainCard from "../components/MainCard";
 import { PageContext } from "../context/page-context";
-import Aboutme from "./Aboutme";
 import Certification from "./Certification";
 import Experience from "./Experience";
 import Stack from "./Stack";
@@ -18,10 +17,8 @@ export default function Content() {
         <Stack />
       ) : currentPage === "experience" ? (
         <Experience />
-      ) : currentPage === "certification" ? (
-        <Certification />
       ) : (
-        <Aboutme />
+        <Certification />
       )}
     </MainCard>
   );

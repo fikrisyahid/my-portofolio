@@ -45,19 +45,6 @@ export default function Tab() {
       >
         Certification
       </Button>
-      <Button
-        variant="text"
-        sx={{
-          fontSize: 16,
-          fontWeight: 700,
-          color: "white",
-          backgroundColor:
-            currentPage === "about-me" ? "#25343F" : "transparent",
-        }}
-        onClick={() => setCurrentPage("about-me")}
-      >
-        About Me
-      </Button>
     </Box>
   );
 }
