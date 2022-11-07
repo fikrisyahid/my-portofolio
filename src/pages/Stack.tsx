@@ -106,7 +106,7 @@ export default function Stack() {
             <img
               alt="django"
               src="/assets/stack/django.png"
-              style={{ width: "15vw", height: "15vw", cursor: "pointer" }}
+              style={{ width: "25vw", height: "15vw", cursor: "pointer" }}
               onClick={() => enqueueSnackbar("Django")}
             />
           </Item>
