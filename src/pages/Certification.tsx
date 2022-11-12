@@ -30,22 +30,9 @@ export default function Certification() {
         </Box>
         <Box display="flex" justifyContent="space-evenly">
           <CertBox
-            alt="data_privacy_fundamentals"
-            src="/assets/certification/data_privacy_fundamentals.jpg"
-            url="https://courses.cognitiveclass.ai/certificates/863409aba30d4415a8266d605d395a94"
-          />
-          <CertBox alt="redhat" src="/assets/certification/redhat.jpg" />
-          <CertBox
-            alt="dl_fundamentals"
-            src="/assets/certification/dl_fundamentals.jpg"
-            url="https://courses.cognitiveclass.ai/certificates/e89e1b05968a4747b65fb352576088b2"
-          />
-        </Box>
-        <Box display="flex" justifyContent="space-evenly">
-          <CertBox
-            alt="introduction_ds"
-            src="/assets/certification/introduction_ds.jpg"
-            url="https://courses.cognitiveclass.ai/certificates/011369a503ae4b7ebe8bfc186c34c5ec"
+            alt="visualisasi_data"
+            src="/assets/certification/visualisasi_data.jpg"
+            url="https://www.dicoding.com/certificates/JMZVMWQJ3ZN9"
           />
           <CertBox
             alt="ml"
@@ -53,9 +40,22 @@ export default function Certification() {
             url="https://www.dicoding.com/certificates/72ZD23OQQZYW"
           />
           <CertBox
-            alt="blockchain"
-            src="/assets/certification/blockchain.jpg"
-            url="https://courses.cognitiveclass.ai/certificates/cdedf9e3cf1840a8845335b9436a5784"
+            alt="python"
+            src="/assets/certification/python.jpg"
+            url="https://www.dicoding.com/certificates/ERZR5D672PYV"
+          />
+        </Box>
+        <Box display="flex" justifyContent="space-evenly">
+          <CertBox
+            alt="data_privacy_fundamentals"
+            src="/assets/certification/data_privacy_fundamentals.jpg"
+            url="https://courses.cognitiveclass.ai/certificates/863409aba30d4415a8266d605d395a94"
+          />
+          <CertBox alt="redhat" src="/assets/certification/redhat.jpg" />
+          <CertBox
+            alt="introduction_ds"
+            src="/assets/certification/introduction_ds.jpg"
+            url="https://courses.cognitiveclass.ai/certificates/011369a503ae4b7ebe8bfc186c34c5ec"
           />
         </Box>
         <Box display="flex" justifyContent="space-evenly">
@@ -65,10 +65,11 @@ export default function Certification() {
             url="https://courses.cognitiveclass.ai/certificates/1ba706c9753c4666aff99050d30b3664"
           />
           <CertBox
-            alt="python"
-            src="/assets/certification/python.jpg"
-            url="https://www.dicoding.com/certificates/ERZR5D672PYV"
+            alt="dl_fundamentals"
+            src="/assets/certification/dl_fundamentals.jpg"
+            url="https://courses.cognitiveclass.ai/certificates/e89e1b05968a4747b65fb352576088b2"
           />
+
           <CertBox
             alt="r_101"
             src="/assets/certification/r_101.jpg"
@@ -80,11 +81,6 @@ export default function Certification() {
             alt="data_science_methodology"
             src="/assets/certification/data_science_methodology.jpg"
             url="https://courses.cognitiveclass.ai/certificates/e101c773226042549436bd82cc3e6efc"
-          />
-          <CertBox
-            alt="visualisasi_data"
-            src="/assets/certification/visualisasi_data.jpg"
-            url="https://www.dicoding.com/certificates/JMZVMWQJ3ZN9"
           />
         </Box>
       </Box>
