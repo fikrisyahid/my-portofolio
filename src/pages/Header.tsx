@@ -20,7 +20,7 @@ export default function Header() {
         </Typography>
       </Item>
       <Item align="center">
-        <Typography variant="h5" fontWeight={100} textAlign="center">
+        <Typography variant="h5" textAlign="center">
           IT Fresh Graduate
         </Typography>
       </Item>
@@ -36,7 +36,7 @@ export default function Header() {
           <Typography variant="h4" fontWeight={700} textAlign="center" mb={1}>
             Summary
           </Typography>
-          <Typography variant="h6" fontWeight={100} textAlign="center">
+          <Typography variant="h6" textAlign="center">
             Hi, I'm an IT fresh graduate who has experience in WordPress and Web
             App development. I can create and manage websites using CMS tools
             such as WordPress. I can also make a RESTful API using NodeJS or
